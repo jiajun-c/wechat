@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  backend:
+    image: walawalawala/wechat:demo
+    container_name: backend
+    restart: on-failure
+    ports:
+      - "8080:8080"
